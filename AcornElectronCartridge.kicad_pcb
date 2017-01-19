@@ -1049,21 +1049,21 @@
   )
 
   (segment (start 81.28 120.65) (end 81.28 113.03) (width 0.5) (layer F.Cu) (net 1))
-  (segment (start 72.39 80.01) (end 80.01 72.39) (width 0.5) (layer F.Cu) (net 1) (tstamp 587CCC0A) (status 20))
-  (segment (start 72.39 104.14) (end 72.39 80.01) (width 0.5) (layer F.Cu) (net 1) (tstamp 587CCC07))
-  (segment (start 81.28 113.03) (end 72.39 104.14) (width 0.5) (layer F.Cu) (net 1) (tstamp 587CCBFE))
+  (segment (start 72.263 80.01) (end 80.01 72.39) (width 0.5) (layer F.Cu) (net 1) (tstamp 587CCC0A) (status 20))
+  (segment (start 72.263 104.14) (end 72.263 80.01) (width 0.5) (layer F.Cu) (net 1) (tstamp 587CCC07))
+  (segment (start 81.28 113.03) (end 72.263 104.14) (width 0.5) (layer F.Cu) (net 1) (tstamp 587CCBFE))
   (segment (start 78.74 120.65) (end 78.74 113.03) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 71.12 78.74) (end 80.01 69.85) (width 0.5) (layer F.Cu) (net 2) (tstamp 587CCB70) (status 20))
   (segment (start 71.12 105.41) (end 71.12 78.74) (width 0.5) (layer F.Cu) (net 2) (tstamp 587CCB6F))
   (segment (start 78.74 113.03) (end 71.12 105.41) (width 0.5) (layer F.Cu) (net 2) (tstamp 587CCB6E))
   (segment (start 76.2 120.65) (end 76.2 113.03) (width 0.5) (layer F.Cu) (net 3))
-  (segment (start 69.85 77.47) (end 80.01 67.31) (width 0.5) (layer F.Cu) (net 3) (tstamp 587CCC91) (status 20))
-  (segment (start 69.85 106.68) (end 69.85 77.47) (width 0.5) (layer F.Cu) (net 3) (tstamp 587CCC84))
-  (segment (start 76.2 113.03) (end 69.85 106.68) (width 0.5) (layer F.Cu) (net 3) (tstamp 587CCC78))
+  (segment (start 69.977 77.47) (end 80.01 67.31) (width 0.5) (layer F.Cu) (net 3) (tstamp 587CCC91) (status 20))
+  (segment (start 69.977 106.68) (end 69.977 77.47) (width 0.5) (layer F.Cu) (net 3) (tstamp 587CCC84))
+  (segment (start 76.2 113.03) (end 69.977 106.68) (width 0.5) (layer F.Cu) (net 3) (tstamp 587CCC78))
   (segment (start 83.82 120.65) (end 83.82 113.03) (width 0.5) (layer F.Cu) (net 4))
-  (segment (start 73.66 81.28) (end 80.01 74.93) (width 0.5) (layer F.Cu) (net 4) (tstamp 587CCC21) (status 20))
-  (segment (start 73.66 102.87) (end 73.66 81.28) (width 0.5) (layer F.Cu) (net 4) (tstamp 587CCC1D))
-  (segment (start 83.82 113.03) (end 73.66 102.87) (width 0.5) (layer F.Cu) (net 4) (tstamp 587CCC11))
+  (segment (start 73.406 81.28) (end 80.01 74.93) (width 0.5) (layer F.Cu) (net 4) (tstamp 587CCC21) (status 20))
+  (segment (start 73.406 102.87) (end 73.406 81.28) (width 0.5) (layer F.Cu) (net 4) (tstamp 587CCC1D))
+  (segment (start 83.82 113.03) (end 73.406 102.87) (width 0.5) (layer F.Cu) (net 4) (tstamp 587CCC11))
   (segment (start 77.47 80.01) (end 80.01 77.47) (width 0.5) (layer F.Cu) (net 5) (tstamp 587CE210) (status 20))
   (segment (start 77.47 104.14) (end 77.47 80.01) (width 0.5) (layer F.Cu) (net 5) (tstamp 587CE20D))
   (segment (start 86.36 113.03) (end 77.47 104.14) (width 0.5) (layer F.Cu) (net 5) (tstamp 587CE20A))
@@ -1312,7 +1312,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 131.6228 101.2317) (xy 131.6228 86.8172) (xy 129.3114 86.8172) (xy 129.3114 101.2317)
+        (xy 132.08 101.6635) (xy 132.08 86.36) (xy 128.8415 86.36) (xy 128.8415 101.6635)
       )
     )
   )
@@ -1323,7 +1323,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 69.215 105.156) (xy 69.215 97.536) (xy 61.595 97.536) (xy 61.595 105.156) (xy 63.881 105.156)
+        (xy 69.6595 105.6005) (xy 69.6595 97.0915) (xy 61.1505 97.0915) (xy 61.1505 105.6005)
       )
     )
   )
@@ -1334,7 +1334,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 144.145 105.156) (xy 144.145 97.536) (xy 136.525 97.536) (xy 136.525 105.156) (xy 143.002 105.156)
+        (xy 145.034 106.045) (xy 145.034 96.647) (xy 135.636 96.647) (xy 135.636 106.045)
       )
     )
   )
@@ -1345,7 +1345,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 141.986 112.014) (xy 141.986 108.712) (xy 138.684 108.712) (xy 138.684 112.014) (xy 140.589 112.014)
+        (xy 142.4305 112.4585) (xy 142.4305 108.2675) (xy 138.176 108.2675) (xy 138.176 112.4585)
       )
     )
   )
@@ -1356,7 +1356,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 67.056 112.014) (xy 67.056 108.712) (xy 63.754 108.712) (xy 63.754 112.014) (xy 66.548 112.014)
+        (xy 67.564 112.4585) (xy 67.564 108.2675) (xy 63.3095 108.2675) (xy 63.3095 112.4585)
       )
     )
   )
@@ -1367,7 +1367,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 67.056 72.009) (xy 67.056 68.707) (xy 63.754 68.707) (xy 63.754 72.009) (xy 65.151 72.009)
+        (xy 67.564 72.4535) (xy 67.564 68.2625) (xy 63.3095 68.2625) (xy 63.3095 72.4535)
       )
     )
   )
@@ -1378,7 +1378,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 141.986 72.009) (xy 141.986 68.707) (xy 138.684 68.707) (xy 138.684 72.009) (xy 141.478 72.009)
+        (xy 142.4305 72.4535) (xy 142.4305 68.2625) (xy 138.176 68.2625) (xy 138.176 72.4535)
       )
     )
   )
@@ -1389,7 +1389,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 76.4286 98.7298) (xy 76.4286 86.8172) (xy 74.1172 86.8172) (xy 74.1172 98.7298)
+        (xy 76.8985 99.187) (xy 76.8985 86.36) (xy 73.66 86.36) (xy 73.66 99.187)
       )
     )
   )
@@ -1400,7 +1400,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 131.6228 101.2317) (xy 131.6228 86.8172) (xy 129.3114 86.8172) (xy 129.3114 101.2317)
+        (xy 132.08 101.6635) (xy 132.08 86.36) (xy 128.8415 86.36) (xy 128.8415 101.6635)
       )
     )
   )
@@ -1411,7 +1411,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 144.145 105.156) (xy 144.145 97.536) (xy 136.525 97.536) (xy 136.525 105.156) (xy 143.002 105.156)
+        (xy 145.034 106.045) (xy 145.034 96.647) (xy 135.636 96.647) (xy 135.636 106.045)
       )
     )
   )
@@ -1422,7 +1422,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 141.986 72.009) (xy 141.986 68.707) (xy 138.684 68.707) (xy 138.684 72.009) (xy 141.478 72.009)
+        (xy 142.4305 72.4535) (xy 142.4305 68.2625) (xy 138.176 68.2625) (xy 138.176 72.4535)
       )
     )
   )
@@ -1433,7 +1433,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 141.986 112.014) (xy 141.986 108.712) (xy 138.684 108.712) (xy 138.684 112.014) (xy 140.589 112.014)
+        (xy 142.4305 112.4585) (xy 142.4305 108.2675) (xy 138.176 108.2675) (xy 138.176 112.4585)
       )
     )
   )
@@ -1444,7 +1444,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 76.4286 98.7298) (xy 76.4286 86.8172) (xy 74.1172 86.8172) (xy 74.1172 98.7298)
+        (xy 76.8985 99.187) (xy 76.8985 86.36) (xy 73.66 86.36) (xy 73.66 99.187)
       )
     )
   )
@@ -1455,7 +1455,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 67.056 112.014) (xy 67.056 108.712) (xy 63.754 108.712) (xy 63.754 112.014) (xy 66.548 112.014)
+        (xy 67.564 112.4585) (xy 67.564 108.2675) (xy 63.3095 108.2675) (xy 63.3095 112.4585)
       )
     )
   )
@@ -1466,7 +1466,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 69.215 105.156) (xy 69.215 97.536) (xy 61.595 97.536) (xy 61.595 105.156) (xy 63.881 105.156)
+        (xy 69.6595 105.6005) (xy 69.6595 97.0915) (xy 61.1505 97.0915) (xy 61.1505 105.6005) (xy 63.373 105.6005)
       )
     )
   )
@@ -1477,7 +1477,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 67.056 72.009) (xy 67.056 68.707) (xy 63.754 68.707) (xy 63.754 72.009) (xy 65.151 72.009)
+        (xy 67.564 72.4535) (xy 67.564 68.2625) (xy 63.3095 68.2625) (xy 63.3095 72.4535)
       )
     )
   )
