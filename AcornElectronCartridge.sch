@@ -48,9 +48,9 @@ $Comp
 L Acorn_Electron_cartridge_edge_connector_front_side_B CONN2
 U 1 1 587CC811
 P 5250 1100
-F 0 "CONN2" H 5250 1100 60  0000 C TNN
+F 0 "CONN2" H 5250 1050 60  0000 C TNN
 F 1 "Acorn_Electron_cartridge_edge_connector_front_side_B" H 5250 1100 60  0000 C BNN
-F 2 "Acorn_Electron:Acorn_Electron_cartridge_edge_connector" H 5250 1100 60  0001 C CNN
+F 2 "Acorn_Electron:Acorn_Electron_cartridge_edge_connector_front" H 5250 1100 60  0001 C CNN
 F 3 "" H 5250 1100 60  0001 C CNN
 	1    5250 1100
 	1    0    0    -1  
@@ -59,9 +59,9 @@ $Comp
 L Acorn_Electron_cartridge_edge_connector_rear_side_A CONN1
 U 1 1 587CC844
 P 2750 1100
-F 0 "CONN1" H 2750 1100 60  0000 C TNN
+F 0 "CONN1" H 2750 1050 60  0000 C TNN
 F 1 "Acorn_Electron_cartridge_edge_connector_rear_side_A" H 2750 1100 60  0000 C BNN
-F 2 "Acorn_Electron:Acorn_Electron_cartridge_edge_connector" H 2750 1100 60  0001 C CNN
+F 2 "Acorn_Electron:Acorn_Electron_cartridge_edge_connector_rear" H 2750 1100 60  0001 C CNN
 F 3 "" H 2750 1100 60  0001 C CNN
 	1    2750 1100
 	1    0    0    -1  

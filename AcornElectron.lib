@@ -4,7 +4,7 @@ EESchema-LIBRARY Version 2.3
 # Acorn_Electron_cartridge_edge_connector_front_side_B
 #
 DEF Acorn_Electron_cartridge_edge_connector_front_side_B CONN 0 40 Y Y 1 F N
-F0 "CONN" 0 0 60 H V C TNN
+F0 "CONN" 0 -50 60 H V C TNN
 F1 "Acorn_Electron_cartridge_edge_connector_front_side_B" 0 0 60 H V C BNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
@@ -37,7 +37,7 @@ ENDDEF
 # Acorn_Electron_cartridge_edge_connector_rear_side_A
 #
 DEF Acorn_Electron_cartridge_edge_connector_rear_side_A CONN 0 40 Y Y 1 F N
-F0 "CONN" 0 0 60 H V C TNN
+F0 "CONN" 0 -50 60 H V C TNN
 F1 "Acorn_Electron_cartridge_edge_connector_rear_side_A" 0 0 60 H V C BNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN

@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/paulb/AcornElectronCartridge/AcornElectronCartridge.sch)
-    (date "Mon 16 Jan 2017 17:14:08 CET")
-    (tool "Eeschema 4.0.5+dfsg1-1")
+    (date "Thu 19 Jan 2017 16:18:21 CET")
+    (tool "Eeschema 4.0.5+dfsg1-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -17,13 +17,13 @@
   (components
     (comp (ref CONN2)
       (value Acorn_Electron_cartridge_edge_connector_front_side_B)
-      (footprint Acorn_Electron:Acorn_Electron_cartridge_edge_connector)
+      (footprint Acorn_Electron:Acorn_Electron_cartridge_edge_connector_front)
       (libsource (lib AcornElectron) (part Acorn_Electron_cartridge_edge_connector_front_side_B))
       (sheetpath (names /) (tstamps /))
       (tstamp 587CC811))
     (comp (ref CONN1)
       (value Acorn_Electron_cartridge_edge_connector_rear_side_A)
-      (footprint Acorn_Electron:Acorn_Electron_cartridge_edge_connector)
+      (footprint Acorn_Electron:Acorn_Electron_cartridge_edge_connector_rear)
       (libsource (lib AcornElectron) (part Acorn_Electron_cartridge_edge_connector_rear_side_A))
       (sheetpath (names /) (tstamps /))
       (tstamp 587CC844))
@@ -155,10 +155,10 @@
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical AcornElectron)
-      (uri /home/paulb/AcornElectronCartridge/AcornElectron.lib)))
+      (uri /home/paulb/AcornElectronCartridge/AcornElectron.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /CSRW)
       (node (ref CONN1) (pin 4))
