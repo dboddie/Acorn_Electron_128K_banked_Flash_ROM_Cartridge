@@ -1,0 +1,50 @@
+Licence Agreement for AcornElectronCartridge
+--------------------------------------------
+
+Copyright (C) 2017 Paul Boddie <paul@boddie.org.uk>
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along with
+this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Notes on the licence choice and its application to this work
+------------------------------------------------------------
+
+Although the above statement refers to a "program", the licence itself uses
+this term to refer to "any copyrightable work". In this case, the work
+consists of schematics, circuit layout details and other data, and the
+application of this licence is intended to govern the further distribution of
+these materials in addition to any programs or software that might also be
+included in the work.
+
+When making hardware using the materials featured in this work, be sure to
+provide corresponding sources (schematics, circuit layouts) or to make them
+available on request, as indicated by the licence terms. Where a modified form
+of the work is distributed, the relevant changes must be incorporated into the
+source files that were actually edited to produce the desired, modified
+result.
+
+It is not generally acceptable to provide only modified output files when
+distributing modified forms of this work. For example, it is not acceptable to
+change the circuit layout file in a PCB editing program and then withhold this
+modified file from recipients by insisting that only the Gerber files were
+edited directly. Only if the Gerber files were actually edited directly may
+modified versions of such files be considered source-level changes. Even then,
+such modifications on files that are the product of other, more abstract,
+files are not recommended as they rarely uphold a sustainable development
+approach.
+
+To conclude, when producing unmodified versions of this work, you should make
+these materials available to recipients. When producing modified versions, you
+should make the exact materials you used available to recipients. And you
+should preserve the copyright and licensing notices present in this work
+regardless of any modifications you make to the work.
