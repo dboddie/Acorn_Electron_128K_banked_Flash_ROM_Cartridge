@@ -35,14 +35,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Acorn Electron cartridge breakout"
+Date "2017-02-16"
 Rev ""
 Comp ""
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "See: http://hgweb.boddie.org.uk/AcornElectronCartridge"
+Comment3 "Design licensed under the terms of the GNU General Public License version 3 or later."
+Comment4 "A prototyping/breakout cartridge for the Acorn Electron Plus 1 expansion unit."
 $EndDescr
 $Comp
 L Acorn_Electron_cartridge_edge_connector_front_side_B CONN2
