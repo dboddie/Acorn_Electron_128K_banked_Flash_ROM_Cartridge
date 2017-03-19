@@ -45,6 +45,12 @@ approach.
 
 To conclude, when producing unmodified versions of this work, you should make
 these materials available to recipients. When producing modified versions, you
-should make the exact materials you used available to recipients. And you
-should preserve the copyright and licensing notices present in this work
-regardless of any modifications you make to the work.
+should make the exact materials you used available to recipients.
+
+You should preserve the copyright and licensing notices present in this work
+regardless of any modifications you make to the work. However, where a
+copyright notice appears on the hardware itself (being analogous to a message
+that a program might display to communicate such information to its users), you
+may choose to extend the notice to take your modifications into account, or you
+may choose to replace it with a reference to a resource providing all
+applicable copyright and licensing information.
