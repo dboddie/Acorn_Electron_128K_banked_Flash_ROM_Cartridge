@@ -283,10 +283,6 @@ Text Label 2150 3900 2    60   ~ 0
 A13
 Text Label 2150 4000 2    60   ~ 0
 A14
-Text Label 2150 4100 2    60   ~ 0
-0V_A
-Text Label 2150 4200 2    60   ~ 0
-0V_A
 Text Label 2750 2500 1    60   ~ 0
 +5V_A
 Text Label 2750 5000 3    60   ~ 0
@@ -298,4 +294,55 @@ Text Label 4800 3000 3    60   ~ 0
 0V_B
 Text Label 2150 4600 2    60   ~ 0
 CSRW
+$Comp
+L CONN_01X02 PADS1
+U 1 1 59D3C5F5
+P 4800 5550
+F 0 "PADS1" H 4800 5700 50  0000 C CNN
+F 1 "CONN_01X02" V 4900 5550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4800 5550 50  0001 C CNN
+F 3 "" H 4800 5550 50  0000 C CNN
+	1    4800 5550
+	1    0    0    -1  
+$EndComp
+Text Label 2150 4100 2    60   ~ 0
+PAD1
+Text Label 2150 4200 2    60   ~ 0
+PAD0
+Text Label 4600 5500 2    60   ~ 0
+PAD0
+Text Label 4600 5600 2    60   ~ 0
+PAD1
+$Comp
+L CONN_01X02 5V1
+U 1 1 59D3E2A3
+P 4800 6100
+F 0 "5V1" H 4800 6250 50  0000 C CNN
+F 1 "CONN_01X02" V 4900 6100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4800 6100 50  0001 C CNN
+F 3 "" H 4800 6100 50  0000 C CNN
+	1    4800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 0V1
+U 1 1 59D3E2FF
+P 4800 6700
+F 0 "0V1" H 4800 6850 50  0000 C CNN
+F 1 "CONN_01X02" V 4900 6700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4800 6700 50  0001 C CNN
+F 3 "" H 4800 6700 50  0000 C CNN
+	1    4800 6700
+	1    0    0    -1  
+$EndComp
+Text Label 4600 6050 2    60   ~ 0
++5V_A
+Text Label 4600 6150 2    60   ~ 0
++5V_A
+Text Label 4600 6650 2    60   ~ 0
+0V_A
+Text Label 4600 6750 2    60   ~ 0
+0V_A
+Text Label 4800 2600 1    60   ~ 0
++5V_B
 $EndSCHEMATC
