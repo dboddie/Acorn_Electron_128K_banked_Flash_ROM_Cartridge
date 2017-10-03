@@ -1,10 +1,10 @@
 Introduction
 ------------
 
-The AcornElectronCartridge distribution provides schematic and circuit layout
-files for use with KiCad describing a breakout or prototyping cartridge
-suitable for use with the Acorn Electron microcomputer's Plus 1 expansion
-unit.
+This repository provides schematic and circuit layout files for use with KiCad
+describing a 128K Flash ROM cartridge suitable for use with the Acorn Electron
+microcomputer's Plus 1 expansion unit. It is based on Paul Boddie's original
+prototyping breakout cartridge.
 
 The following resources are provided:
 
@@ -29,14 +29,6 @@ AcornElectron.pretty                Acorn Electron component footprint library
 BoardOutline                        Drawings defining the board outline plus
                                     descriptions of the drafting workflow and
                                     KiCad import considerations
-
-Overview
---------
-
-The purpose of a cartridge breakout is to route the signals from the cartridge
-socket to "breakout" connectors that are easily accessed for prototyping
-purposes. The circuit board is plugged into the cartridge socket and the two
-sides of the board edge connector make contact with the socket contacts.
 
 Preparing the Schematic
 -----------------------
@@ -88,24 +80,19 @@ holes and the board edges.
 Design Rules and Production
 ---------------------------
 
-It was decided that OSHPark would be used to make the first set of boards.
-Thus, the design rules for OSHPark were added to the project configuration.
-Such rules can be found here:
+The original prototyping cartridge was sent to OSHPark for production. Thus,
+the design rules for OSHPark were added to the project configuration. Such
+rules can be found here:
 
 http://docs.oshpark.com/services/two-layer/
 http://docs.oshpark.com/design-tools/kicad/kicad-design-rules/
-
-The board uploaded to OSHPark was tagged with oshpark-648KdmKd in this
-repository. It resides on OSHPark at the following location:
-
-https://oshpark.com/shared_projects/648KdmKd
 
 Contact, Copyright and Licence Information
 ------------------------------------------
 
 The author can be contacted at the following e-mail address:
 
-paul@boddie.org.uk
+david@boddie.org.uk
 
 Copyright and licence information can be found in the docs directory - see
 docs/COPYING.txt and docs/gpl-3.0.txt for more information.
