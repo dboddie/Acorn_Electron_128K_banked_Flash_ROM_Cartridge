@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Acorn Electron 32K EEPROM cartridge"
+Title "Acorn Electron 128K banked Flash ROM cartridge"
 Date "2017-10-02"
 Rev ""
 Comp ""
@@ -160,7 +160,7 @@ U 1 1 59D29643
 P 5000 2800
 F 0 "NAND1" H 5000 2850 50  0000 C CNN
 F 1 "74HC00" H 5000 2700 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 5000 2800 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5000 2800 50  0001 C CNN
 F 3 "" H 5000 2800 50  0000 C CNN
 	1    5000 2800
 	1    0    0    -1  
@@ -171,7 +171,7 @@ U 2 1 59D29688
 P 5000 3600
 F 0 "NAND1" H 5000 3650 50  0000 C CNN
 F 1 "74HC00" H 5000 3500 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 5000 3600 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5000 3600 50  0001 C CNN
 F 3 "" H 5000 3600 50  0000 C CNN
 	2    5000 3600
 	1    0    0    -1  
@@ -182,7 +182,7 @@ U 3 1 59D296BF
 P 5000 4250
 F 0 "NAND1" H 5000 4300 50  0000 C CNN
 F 1 "74HC00" H 5000 4150 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 5000 4250 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5000 4250 50  0001 C CNN
 F 3 "" H 5000 4250 50  0000 C CNN
 	3    5000 4250
 	1    0    0    -1  
@@ -193,7 +193,7 @@ U 4 1 59D296F2
 P 5000 4900
 F 0 "NAND1" H 5000 4950 50  0000 C CNN
 F 1 "74HC00" H 5000 4800 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm" H 5000 4900 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5000 4900 50  0001 C CNN
 F 3 "" H 5000 4900 50  0000 C CNN
 	4    5000 4900
 	1    0    0    -1  
@@ -294,55 +294,46 @@ Text Label 4800 3000 3    60   ~ 0
 0V_B
 Text Label 2150 4600 2    60   ~ 0
 CSRW
-$Comp
-L CONN_01X02 PADS1
-U 1 1 59D3C5F5
-P 4800 5550
-F 0 "PADS1" H 4800 5700 50  0000 C CNN
-F 1 "CONN_01X02" V 4900 5550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4800 5550 50  0001 C CNN
-F 3 "" H 4800 5550 50  0000 C CNN
-	1    4800 5550
-	1    0    0    -1  
-$EndComp
-Text Label 2150 4100 2    60   ~ 0
-PAD1
-Text Label 2150 4200 2    60   ~ 0
-PAD0
-Text Label 4600 5500 2    60   ~ 0
-PAD0
-Text Label 4600 5600 2    60   ~ 0
-PAD1
-$Comp
-L CONN_01X02 5V1
-U 1 1 59D3E2A3
-P 4800 6100
-F 0 "5V1" H 4800 6250 50  0000 C CNN
-F 1 "CONN_01X02" V 4900 6100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4800 6100 50  0001 C CNN
-F 3 "" H 4800 6100 50  0000 C CNN
-	1    4800 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 0V1
-U 1 1 59D3E2FF
-P 4800 6700
-F 0 "0V1" H 4800 6850 50  0000 C CNN
-F 1 "CONN_01X02" V 4900 6700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4800 6700 50  0001 C CNN
-F 3 "" H 4800 6700 50  0000 C CNN
-	1    4800 6700
-	1    0    0    -1  
-$EndComp
-Text Label 4600 6050 2    60   ~ 0
-+5V_A
-Text Label 4600 6150 2    60   ~ 0
-+5V_A
-Text Label 4600 6650 2    60   ~ 0
-0V_A
-Text Label 4600 6750 2    60   ~ 0
-0V_A
 Text Label 4800 2600 1    60   ~ 0
 +5V_B
+Text Label 7100 3400 2    60   ~ 0
+nRST
+Text Label 7100 3250 2    60   ~ 0
+nROMSTB
+Text Label 7100 2600 2    60   ~ 0
+D0
+Text Label 7100 2700 2    60   ~ 0
+D1
+$Comp
+L 74LS174 FLIP1
+U 1 1 59D8067A
+P 7800 3000
+F 0 "FLIP1" H 7800 3050 50  0000 C CNN
+F 1 "74LS174" H 7800 2850 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 7800 3000 50  0001 C CNN
+F 3 "" H 7800 3000 50  0000 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+Text Label 7800 2550 1    60   ~ 0
++5V_B
+Text Label 7800 3450 3    60   ~ 0
+0V_B
+Text Label 8500 2600 0    60   ~ 0
+A15
+Text Label 8500 2700 0    60   ~ 0
+A16
+NoConn ~ 8500 2700
+NoConn ~ 8500 2800
+NoConn ~ 8500 2900
+NoConn ~ 8500 3000
+NoConn ~ 8500 3100
+NoConn ~ 7100 3100
+NoConn ~ 7100 3000
+NoConn ~ 7100 2900
+NoConn ~ 7100 2800
+Text Label 2150 4100 2    60   ~ 0
+A15
+Text Label 2150 4200 2    60   ~ 0
+A16
 $EndSCHEMATC
