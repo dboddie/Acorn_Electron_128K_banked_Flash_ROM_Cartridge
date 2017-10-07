@@ -45,7 +45,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -980,10 +980,10 @@
   (segment (start 88.9 80.01) (end 88.9 80.01) (width 0.5) (layer B.Cu) (net 3) (status 30))
   (via (at 88.9 80.01) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 3) (status 30))
   (segment (start 99.06 74.93) (end 101.6 74.93) (width 0.5) (layer B.Cu) (net 3) (status 30))
-  (segment (start 85.09 83.82) (end 86.36 83.82) (width 0.5) (layer B.Cu) (net 4))
-  (via (at 85.09 83.82) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 4))
+  (segment (start 86.36 83.82) (end 86.36 83.82) (width 0.5) (layer B.Cu) (net 4))
+  (via (at 86.36 83.82) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 86.36 120.65) (end 86.36 104.14) (width 0.5) (layer F.Cu) (net 4) (status 10))
-  (segment (start 82.55 83.82) (end 85.09 83.82) (width 0.5) (layer F.Cu) (net 4) (tstamp 59D3CDC5))
+  (segment (start 82.55 83.82) (end 86.36 83.82) (width 0.5) (layer F.Cu) (net 4) (tstamp 59D3CDC5))
   (segment (start 82.55 100.33) (end 82.55 83.82) (width 0.5) (layer F.Cu) (net 4) (tstamp 59D3CDC4))
   (segment (start 86.36 104.14) (end 82.55 100.33) (width 0.5) (layer F.Cu) (net 4) (tstamp 59D3CDC3))
   (segment (start 95.25 83.82) (end 99.06 80.01) (width 0.5) (layer B.Cu) (net 4) (tstamp 59EC7694) (status 20))
