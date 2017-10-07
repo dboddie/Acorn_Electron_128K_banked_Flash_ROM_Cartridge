@@ -228,7 +228,7 @@ U 1 1 59D2A464
 P 2750 3800
 F 0 "Flash1" H 2850 5100 50  0000 C CNN
 F 1 "SST39SF010" H 2750 2600 50  0000 C CNN
-F 2 "Housings_DIP:DIP-32_W15.24mm" H 2750 4100 50  0001 C CNN
+F 2 "Housings_DIP:DIP-32_W15.24mm_Socket" H 2750 4100 50  0001 C CNN
 F 3 "" H 2750 4100 50  0000 C CNN
 	1    2750 3800
 	1    0    0    -1  
@@ -283,19 +283,11 @@ Text Label 2150 3900 2    60   ~ 0
 A13
 Text Label 2150 4000 2    60   ~ 0
 A14
-Text Label 2750 2500 1    60   ~ 0
-+5V_A
-Text Label 2750 5000 3    60   ~ 0
-0V_A
 NoConn ~ 2150 4300
 NoConn ~ 2150 4400
 NoConn ~ 5450 7550
-Text Label 4800 3000 3    60   ~ 0
-0V_B
 Text Label 2150 4600 2    60   ~ 0
 CSRW
-Text Label 4800 2600 1    60   ~ 0
-+5V_B
 Text Label 7100 3400 2    60   ~ 0
 nRST
 Text Label 7100 3250 2    60   ~ 0
@@ -315,10 +307,6 @@ F 3 "" H 7800 3000 50  0000 C CNN
 	1    7800 3000
 	1    0    0    -1  
 $EndComp
-Text Label 7800 2550 1    60   ~ 0
-+5V_B
-Text Label 7800 3450 3    60   ~ 0
-0V_B
 Text Label 8500 2600 0    60   ~ 0
 A15
 Text Label 8500 2700 0    60   ~ 0
@@ -336,4 +324,11 @@ Text Label 2150 4100 2    60   ~ 0
 A15
 Text Label 2150 4200 2    60   ~ 0
 A16
+NoConn ~ 6300 1700
+Text Label 4800 3000 3    60   ~ 0
+0V_B
+Text Label 2750 5000 3    60   ~ 0
+0V_A
+Text Label 2750 2500 1    60   ~ 0
++5V_A
 $EndSCHEMATC
