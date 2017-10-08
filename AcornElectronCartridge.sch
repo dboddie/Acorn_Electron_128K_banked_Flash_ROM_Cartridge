@@ -311,7 +311,6 @@ Text Label 8500 2600 0    60   ~ 0
 A15
 Text Label 8500 2700 0    60   ~ 0
 A16
-NoConn ~ 8500 2700
 NoConn ~ 8500 2800
 NoConn ~ 8500 2900
 NoConn ~ 8500 3000
@@ -328,7 +327,9 @@ NoConn ~ 6300 1700
 Text Label 4800 3000 3    60   ~ 0
 0V_B
 Text Label 2750 5000 3    60   ~ 0
-0V_A
+0V_B
 Text Label 2750 2500 1    60   ~ 0
 +5V_A
+Text Label 7800 3450 3    60   ~ 0
+0V_A
 $EndSCHEMATC
