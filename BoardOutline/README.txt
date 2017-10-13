@@ -12,8 +12,8 @@ minus the cutouts.
 The cartridge_board_rear.svg file takes the board shape, flips it
 horizontally, and converts all curves to lines by adding more points (three
 times appears sufficient) and then using the curve-to-line operation. This
-file is then exported to DXF (version 14) and produces the
-cartridge_board_rear.dxf file.
+file is then exported to DXF (version 14) with units specified as millimetres
+and produces the cartridge_board_rear.dxf file.
 
 Importing the cartridge_board_rear.dxf file into KiCad with the connectors
 aligned to a 0.127mm grid, the offsets 60.445mm (3in - 15.755mm) and 127mm
