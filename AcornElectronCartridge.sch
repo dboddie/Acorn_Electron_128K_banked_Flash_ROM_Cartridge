@@ -42,7 +42,7 @@ Comp ""
 Comment1 ""
 Comment2 "See: http://hgweb.boddie.org.uk/AcornElectronCartridge"
 Comment3 "Design licensed under the terms of the GNU General Public License version 3 or later."
-Comment4 "A 32K EEPROM cartridge for the Acorn Electron Plus 1 expansion unit."
+Comment4 "A 128K EEPROM cartridge for the Acorn Electron Plus 1 expansion unit."
 $EndDescr
 $Comp
 L Acorn_Electron_cartridge_edge_connector_front_side_B CONN2
